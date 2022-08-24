@@ -1,0 +1,142 @@
+body{
+    font-family:'Karla', sans-serif; 
+    background-color: rgb(228, 222, 222);
+}
+.container{
+   
+    margin-left: auto;
+    margin-right:auto;
+    margin-top:50px;
+   
+}
+.description{
+    border-radius:10px 10px 0px 0px;
+    background-color: white;
+    padding:30px;
+    box-shadow: 1px 1px 9px grey;
+}
+.firstTitle{
+    font-weight: 700;
+    color:hsl(179, 62%, 43%);
+    font-size:1.7em;
+    margin-bottom: 30px;
+}
+.secondTitle{
+    font-weight:700;
+    color:hsl(71, 73%, 54%);
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+main{
+    color:hsl(218, 22%, 67%);
+    line-height: 30px;
+}
+
+.pay{
+    background-color: hsl(179, 62%, 43%);
+    color:white;
+    padding:30px; 
+    box-shadow: 1px 1px 9px grey;
+    
+}
+.pay h2{
+    font-size: 1.2em;
+    
+}
+.pay p{
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.price{
+    display: inline;
+    
+}
+.month{
+    display:inline;
+    padding:10px;
+    font-size:1em;
+    font-weight:400;
+    color: rgba(235, 228, 228, 0.7);
+    
+}
+button{
+    padding: 14px;
+    width:80%;
+    font-family:'Karla', sans-serif;
+    font-size:1em;
+    font-weight:700;
+    color:white;
+    background-color: hsl(71, 73%, 54%);
+    border:none;
+    border-radius:6px;
+    box-shadow: 1px 1px 11px grey;
+    margin-top: 20px;
+}
+button a{
+    text-decoration: none;
+    color:white;
+}
+button a:visited{
+    color:white;
+}
+button:hover{
+    transition: 0.3s;
+    background-color: hsla(217, 22%, 67%, 0.858);
+}
+.why_us{
+    background-color: hsl(179, 46%, 55%);
+    padding:30px;
+    box-shadow: 1px 1px 9px grey;
+    border-radius: 0px 0px 10px 10px;
+    
+}
+.why_us h1{
+    color:white;
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+.why_us p{
+    font-weight:400;
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 1.5em;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+@media screen and (min-width:375px) {
+    .pay{
+        border-radius: 0px;
+    }
+    .why_us{
+        border-radius: 0px 0px 10px 10px;
+    }
+}
+@media screen and (min-width:800px) {
+    button{
+        width:50%;
+    }
+    
+}
+@media screen and (min-width:1280px){
+    .container{
+        display:grid;
+        grid-template-columns: 50% 50%;
+        width:50%;
+    }
+    .pay{
+        border-radius: 0px 0px 0px 10px;
+    }
+    button{
+        width:80%;
+    }
+    .why_us{
+        border-radius: 0px 0px 10px 0px;
+    }
+}
